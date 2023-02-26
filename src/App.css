@@ -1,0 +1,78 @@
+.App {
+height: 100%;
+/* width: 100%; */
+display: grid;
+grid-template-rows: repeat(12,1fr);
+grid-template-columns: repeat(12,1fr);
+/* background-image: url("../../Assets/backg.jpg"); */
+
+}
+
+
+
+
+/* 
+.App > .Main{
+  
+ background-color:gray;
+ grid-row:span 11;
+ grid-column: span 12;
+ overflow-y: auto;
+} */
+
+  /* #FFFFFF */
+
+
+
+
+.App > .Header{
+
+  background-color:black;
+  border: 1px solid red;
+  color: black; 
+  grid-row: span 2;
+  grid-column: span 12;
+
+
+}
+
+.App > .Main{
+  /* #FFFFFF */
+  
+  background-image: url("/public/images/backg.jpg");
+  overflow-y: auto;
+   grid-row:span 10;
+  grid-column: span 11;
+  overflow-y: auto;
+
+
+
+}
+
+.App > .Menu{
+  background-color:rgb(50, 47, 47) ;
+  grid-row: span 10;
+  grid-column: span 1;
+
+ 
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .App > .Footer{
+  background-color: #9C2C77;
+  grid-column: span 12;
+  grid-row: span 1;
+
+  
+} */
