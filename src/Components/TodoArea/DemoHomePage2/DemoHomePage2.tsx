@@ -1,5 +1,4 @@
 import { url } from "inspector";
-import { map } from "jquery";
 import { SyntheticEvent, useEffect, useState } from "react";
 import { CouponModel } from "../../../Models/CouponModel";
 import store from "../../../Redux/store";
