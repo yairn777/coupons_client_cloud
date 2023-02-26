@@ -9,7 +9,6 @@ import web from "../../Services/WebApi";
 import { getCouponByCategory } from "../../../Redux/CompanyAppState";
 import notify from "../../Services/Notification";
 import CouponItem from "../CompanyTodo/CouponItem/CouponItem";
-import { event } from "jquery";
 import DemoHomePage2 from "../DemoHomePage2/DemoHomePage2";
 
 
