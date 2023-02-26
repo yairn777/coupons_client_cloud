@@ -1,0 +1,56 @@
+.DemoMenuDisplay {
+    padding: 12px;
+
+   
+	
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #1d3557;
+}
+
+/* .DemoMenuDisplay {
+	position: absolute;
+	padding: 10px;
+
+} */
+
+button {
+	padding: 10px 40px;
+	cursor: pointer;
+	font-family: "Montserrat", sans-serif;
+	/* font-size: 20px; */
+}
+
+
+.shiny {
+	border-radius: 50px;
+	border: none;
+	background: #a7c957;
+	position: relative;
+	overflow: hidden;
+}
+
+.shiny::before {
+	content: "";
+	width: 15rem;
+	height: 1.5rem;
+	position: absolute;
+	top: -70%;
+	left: -60%;
+	background-color: #f2e8cf;
+	transform: rotateZ(115deg);
+	transition: left 800ms ease, transform 800ms ease;
+}
+
+.shiny:hover:before {
+	left: 70%;
+}
+
+.shiny:active {
+	transform: scale(0.98);
+}
+

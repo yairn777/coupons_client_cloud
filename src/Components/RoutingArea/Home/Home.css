@@ -1,0 +1,23 @@
+.Home {
+	
+}
+
+
+
+
+
+.my-containerHome{ 
+     background-image: url("/public/images/backg.jpg");
+    width: auto;
+    height: auto;
+
+}
+.CouponsList{
+    /* padding: 380px; */
+    overflow-y:auto;
+    height: 80%;
+}
+
+.Home > h1{
+    font-size: 90px;
+}
